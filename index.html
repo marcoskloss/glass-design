@@ -14,49 +14,89 @@
     <section class="sidebar">
       <div class="profile">
         <div class="profile-image">
-          <!--img-->
+          <img src="./images/avatar.png" alt="Profile image">
         </div>
         <div class="profile-description">
-          <!--h3.name, p.about-->
+          <h3 class="profile-name">Marcos Kloss</h3>
+          <p class="profile-about">Jedi</p>
         </div>
       </div>
 
       <div class="links-container">
         <ul class="link-list">
-          <div class="link">
-            <!--img, h2#streams->
+          <div class="link" id="streams">
+            <img src="./images/twitch.png" alt="Twitch icon">
+            <h2>Streams</h2>
+          </div>
+          <div class="link" id="games">
+            <img src="./images/steam.png" alt="Steam icon">
+            <h2>Games</h2>
           </div>
           <div class="link">
-            <!--img, h2#games-->
-          </div><div class="link">
-            <!--img, h2#new-->
-          </div><div class="link">
-            <!--img, h2#library-->
+            <img src="./images/upcoming.png" alt="Steam icon">
+            <h2>New</h2>
+          </div>
+          <div class="link">
+            <img src="./images/library.png" alt="Steam icon">
+            <h2>Library</h2>
           </div>
         </ul>
       </div>
 
       <div class="join">
-        <!--p, img-->
+        <p>Join pro for free games</p>
+        <img src="./images/controller.png">
       </div>
     </section>
 
     <section class="games">
       <header>
-        <!--h1, input-->
+        <h1>Active Games</h1>
+        <input type="text" class="games-input">
       </header>
+
       <div class="cards-container">
         <div class="card">
-          <img>
+          <img src="./images/assassins.png" alt="Game image">
           <div class="game-description">
-            <h2 class="game-name"></h2>
-            <p class="game-platform"></p>
+            <h2 class="game-name">
+              Assasins Creed Valhalla
+            </h2>
+            <p class="game-platform">
+              PS5 Version
+            </p>
             <div class="game-statusBar"></div>
-            <span class="game-porcentage"></span>
+            <span class="game-porcentage">60%</span>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/sackboy.png" alt="Game image">
+          <div class="game-description">
+            <h2 class="game-name">
+              Sackboy: a Big Adventure
+            </h2>
+            <p class="game-platform">
+              PS5 Version
+            </p>
+            <div class="game-statusBar"></div>
+            <span class="game-porcentage">60%</span>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/spiderman.png" alt="Game image">
+          <div class="game-description">
+            <h2 class="game-name">
+              Spider-Man: Miles-Morales
+            </h2>
+            <p class="game-platform">
+              PS5 Version
+            </p>
+            <div class="game-statusBar"></div>
+            <span class="game-porcentage">60%</span>
           </div>
         </div>
       </div>
-    </section>
+    </section>  
   </div>
 </body>
 </html>
