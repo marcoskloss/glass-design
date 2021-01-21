@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.circle1, .circle2 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  
+  background: linear-gradient(to top right, rgba(255,255,255,0.6) 40%, rgba(255,255,255,0.25) 100%);
+  z-index: -1;
+}
+
+.circle1 {
+  top: 25px;
+  right: 10%;
+}
+
+.circle2 {
+  bottom: 25px;
+  left: 10%;
+}
+
+body {
+  background: rgb(125, 233, 236);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 900px;
+  height: 550px;
+  background: linear-gradient(to top right, rgba(255,255,255,0.6) 40%, rgba(255,255,255,0.3) 100%);
+  border-radius: 20px;
+  backdrop-filter: blur(13px);
+
+}
