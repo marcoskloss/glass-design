@@ -4,4 +4,4 @@ Nesse projeto me desafiei a clonar o design apresentado nesse [vídeo](https://w
 O vídeo se trata de um tutorial, mas como meu objetivo não foi somente copiar o código, não o utilizei.
 
 ### Preview
-![](/preview.png)
+![](/preview.gif)
